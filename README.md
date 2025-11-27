@@ -5,7 +5,7 @@
 The ER diagram shows a normalized retail inventory schema with four core entities (Suppliers, Products, Categories, Orders), their primary keys, foreign key links, and key attributes needed to track stock, catalog structure, and sales.
 
 ## Project explanation
-This repository fulfills the Study.com Computer Science 204 Assignment 1 requirements by designing and implementing a relational database for a fictional electronics retailer. The work covers entity identification, an ERD that captures PK/FK relationships, and SQL scripts for both structure (DDL) and sample data plus basic mutations (DML). The `sql/create-tables.sql` script defines the schema, while `sql/populatedata.sql` inserts five starter rows per table and includes one update and one delete operation to demonstrate DML changes.
+This repository fulfills the Study.com Computer Science 204 Assignment 1 requirements by designing and implementing a relational database for a fictional electronics retailer. The work covers entity identification, an ERD that captures PK/FK relationships, and SQL scripts for both structure (DDL) and sample data plus basic mutations (DML). The `sql/create-tables-part1.sql` script defines the schema, while `sql/populatedata-part1.sql` inserts five starter rows per table and includes one update and one delete operation to demonstrate DML changes.
 
 ### Entities and relationships
 - Suppliers: contact info for each supplier; referenced by Products via `supplier_id`.
