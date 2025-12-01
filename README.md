@@ -35,6 +35,7 @@ Advanced work is in `sql/advanced-queries-part3.sql`:
 - Stored procedure `GetProductSalesSummary(product_id)` returning totals with `COALESCE` for zero-order products.
 - BEFORE UPDATE trigger that logs QOH changes into `Inventory_Audit` and rejects negative inventory; CHECK constraint enforces `qoh >= 0`.
 - Transactional procedure wrapping an inventory update plus order insert with automatic rollback on failure.
+- Full write-up: [Assignment 3 submission (PDF)](Retail-Inventory-Database-Assignment3-submission.pdf).
 
 ## Table snapshots
 - ![Suppliers table](images/SuppliersTable.png) Supplier directory with IDs, names, phone, and email.
